@@ -543,11 +543,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1434164916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d06e6e089f6fc6a45ac52b796d2900f3, type: 3}
+  m_Script: {fileID: 11500000, guid: f62c54f11f389f2458ff7c03f3db9a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  score: 0
+  playerPrefab: {fileID: 0}
+  enemyOnePrefab: {fileID: 0}
+  cloudPrefab: {fileID: 0}
+  livesText: {fileID: 0}
   scoreText: {fileID: 0}
+  horizontalScreenSize: 0
+  verticalScreenSize: 0
+  score: 0
 --- !u!114 &1434164919
 MonoBehaviour:
   m_ObjectHideFlags: 0
