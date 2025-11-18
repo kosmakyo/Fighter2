@@ -151,6 +151,7 @@ MonoBehaviour:
   playerPrefab: {fileID: 6465214131589529892, guid: 2946f3eb6029d8a40b20e03adb96e4fa, type: 3}
   enemyOnePrefab: {fileID: 8729755512266785908, guid: 57d7aa5182902e24cb707961f14f52d5, type: 3}
   cloudPrefab: {fileID: 8901978872678414076, guid: 14dd4fa52784c904e83c0650f3eea560, type: 3}
+  coinPrefab: {fileID: 8729755512266785908, guid: 5fd3c50bf8488b44eb022278fc3691a4, type: 3}
   livesText: {fileID: 999943548}
   scoreText: {fileID: 1434164919}
   horizontalScreenSize: 0
@@ -507,7 +508,6 @@ GameObject:
   - component: {fileID: 1434164917}
   - component: {fileID: 1434164920}
   - component: {fileID: 1434164919}
-  - component: {fileID: 1434164918}
   m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
@@ -534,26 +534,6 @@ RectTransform:
   m_AnchoredPosition: {x: -292.5, y: -218.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1434164918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1434164916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f62c54f11f389f2458ff7c03f3db9a18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
-  playerPrefab: {fileID: 0}
-  enemyOnePrefab: {fileID: 0}
-  cloudPrefab: {fileID: 0}
-  livesText: {fileID: 0}
-  scoreText: {fileID: 0}
-  horizontalScreenSize: 0
-  verticalScreenSize: 0
-  score: 0
 --- !u!114 &1434164919
 MonoBehaviour:
   m_ObjectHideFlags: 0
